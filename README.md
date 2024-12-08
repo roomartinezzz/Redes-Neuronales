@@ -1,7 +1,9 @@
 # Redes-Neuronales
-Proyecto Redes Neuronales
-Este proyecto se centra en el análisis exploratorio y la predicción de la probabilidad de admisión a universidades utilizando redes neuronales. A continuación, se resumen los principales pasos y funcionalidades:
 
+## Objetivo del Proyecto:
+El objetivo es realizar un análisis exploratorio de los datos de admisión a universidades para comprender mejor las relaciones entre las variables y luego construir un modelo predictivo utilizando redes neuronales para predecir la probabilidad de admisión a un programa académico. La aplicación Shiny proporcionará una interfaz interactiva para que los usuarios ingresen sus datos y obtengan una predicción de su probabilidad de ser admitidos.
+
+Este código proporciona una herramienta útil tanto para el análisis exploratorio de datos como para la predicción interactiva, utilizando modelos de redes neuronales y visualizaciones para evaluar el rendimiento del modelo.
 ### Análisis Exploratorio de Datos:
 Lectura y Exploración de los Datos:
 Se carga un archivo CSV con datos de estudiantes y se exploran las variables, eliminando la columna "Serial.No." y mostrando un resumen de los datos.
@@ -35,7 +37,4 @@ La predicción se muestra en un valueBox, y un GIF visualiza la predicción en f
 Manejo de Errores:
 
 Se utiliza tryCatch() para manejar posibles errores durante la predicción, mostrando un mensaje de error si algo falla.
-## Objetivo del Proyecto:
-El objetivo es realizar un análisis exploratorio de los datos de admisión a universidades para comprender mejor las relaciones entre las variables y luego construir un modelo predictivo utilizando redes neuronales para predecir la probabilidad de admisión a un programa académico. La aplicación Shiny proporcionará una interfaz interactiva para que los usuarios ingresen sus datos y obtengan una predicción de su probabilidad de ser admitidos.
 
-Este código proporciona una herramienta útil tanto para el análisis exploratorio de datos como para la predicción interactiva, utilizando modelos de redes neuronales y visualizaciones para evaluar el rendimiento del modelo.
