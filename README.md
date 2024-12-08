@@ -38,3 +38,4 @@ Manejo de Errores:
 
 Se utiliza tryCatch() para manejar posibles errores durante la predicción, mostrando un mensaje de error si algo falla.
 
+# LINK A LA APLICACIÓN SHINY https://rociomartinez.shinyapps.io/redes_neuronales/
